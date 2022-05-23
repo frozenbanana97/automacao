@@ -1,2 +1,22 @@
-git init
+C:\Users\isavi\AppData\Local\Programs\Python\Python39\python.exe
+git init (iniciar)
 git status
+git add -A (adicionar tudo)
+git config user.mail "isavila_@hotmail.com"
+git config user.name "Isaias Avila dos Santos"
+git commit -m "Texto descritivo das mudanças"
+git log
+git remote add origin "https://github.com/isaiasavila/automacao.git" (origin é um nome padrão)
+git remote -v (observações)
+git push -u origin ramo_desejado (empurrar alterações)
+git branch nome_desejado
+git checkout nome_desejado
+git checkout -- nome_desejado
+git checkout -- 'nome_desejado.*' (todos os arquivos com o nome especificado)
+git diff hash_desejado
+git merge ramo_desejado
+git stash (esconder arquivos)
+git stash list (listagem)
+git stash drop nome_desejado
+git pull origin
+git clone caminho_do_repositorio
