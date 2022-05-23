@@ -5,10 +5,12 @@ gpx_file = open('ler.gpx', 'r')
 gpx = gpxpy.parse(gpx_file)
 temp = gpx.to_xml()
 fulldf = pd.read_xml(temp)
-# Drop na primeira linha, dados do aplicativo não necessários
+# Drop na primeira linha, esses dados do aplicativo não necessários
 fulldf = fulldf.drop(0, axis=0)
 
-#Dados manuais repetidos
+print('-----------------------\nOrganização de dados...\n-----------------------')
+
+#Dados manuais que serão repetidos nas colunas
 observador = input('Observador? ')
 grupo = input('Grupo? ')
 tempo = input('Condição do clima? ')
@@ -37,10 +39,17 @@ hora_varredura = fulldf['name'].str[11:19]
 df.insert(13,'date',data_varredura,True)
 df.insert(14,'time',hora_varredura,True)
 df.columns = cabecalho
-df.to_excel('Temporario.xlsx')
 
-pd.to_clipboard()
-# print(df)
+criar_xlsx = input('Deseja gerar um arquivo *.xlsx? 1-sim\n')
+if criar_xlsx == '1':
+    df.to_excel('Temporario.xlsx')
+    print('A exportação foi bem-sucedida...')
+
+# Testar no futuro, eliminando os cabeçalhos e a coluna numérica
+#df.to_clipboard()
+
 #print(df.head(10))
 #print(df.tail(10))
-input('<Finalizado com sucesso!>')
+#xls = pd.ExcelFile('Temporario.xlsx')
+#df1 = pd.read_excel(xls, 'Sheet1')
+input('<Finalizar...>')
