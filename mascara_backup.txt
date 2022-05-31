@@ -1,0 +1,5 @@
+C:/files/Emulation/duckstation/memcards,PS1
+C:/files/Emulation/pcsx2/memcards,PS2
+C:/files/Emulation/ppsspp/memstick,PSP
+C:/GOG Games/Sacred Gold/save,Sacred
+C:/Users/isavi/AppData/Roaming/runic games/torchlight/save,Torchlight
