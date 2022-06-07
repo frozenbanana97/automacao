@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gpx version="1.1" creator="Locus Map, Android"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+ xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3"
+ xmlns:gpxtrkx="http://www.garmin.com/xmlschemas/TrackStatsExtension/v1"
+ xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v2"
+ xmlns:locus="http://www.locusmap.eu">
+	<metadata>
+		<desc>File with points/tracks from Locus Map/4.10.0</desc>
+		<time>2022-06-07T15:08:52.218Z</time>
+	</metadata>
+<wpt lat="-7.511961" lon="-34.879229">
+	<ele>11.00</ele>
+	<time>2022-06-07T15:01:44.787Z</time>
+	<name>2022-06-07 12:01:21 mm</name>
+</wpt>
+<wpt lat="-7.514118" lon="-34.879671">
+	<ele>11.00</ele>
+	<time>2022-06-07T15:02:03.110Z</time>
+	<name>2022-06-07 12:01:57 fs</name>
+</wpt>
+<wpt lat="-7.512288" lon="-34.880469">
+	<ele>10.00</ele>
+	<time>2022-06-07T15:02:15.138Z</time>
+	<name>2022-06-07 12:02:06 j1m</name>
+</wpt>
+</gpx>
