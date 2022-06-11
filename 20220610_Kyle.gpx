@@ -9,7 +9,7 @@
  xmlns:locus="http://www.locusmap.eu">
 	<metadata>
 		<desc>File with points/tracks from Locus Map/4.10.0</desc>
-		<time>2022-06-10T17:08:00.744Z</time>
+		<time>2022-06-11T18:05:16.060Z</time>
 	</metadata>
 <wpt lat="-7.519595" lon="-34.965499">
 	<ele>90.00</ele>
@@ -254,7 +254,7 @@
 <wpt lat="-7.519381" lon="-34.966630">
 	<ele>71.00</ele>
 	<time>2022-06-10T13:41:30.818Z</time>
-	<name>2022-06-10 10:41:2 j32</name>
+	<name>2022-06-10 10:41:20 j32</name>
 </wpt>
 <wpt lat="-7.519522" lon="-34.966547">
 	<ele>71.00</ele>
